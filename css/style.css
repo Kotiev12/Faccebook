@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 961px;
+  margin: 0 auto;
+}
+
+.wrapper{
+  background-image: url('../images/fon.jpg');
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.header{
+  padding-top: 44px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.menu ul{
+  display: flex;
+  margin-top: 38px;
+  margin-left: 25px;
+}
+
+.menu li+li{
+  margin-left: 20px;
+}
+
+.menu a{
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+}
